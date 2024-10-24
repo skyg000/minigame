@@ -32,7 +32,7 @@ function play() {
 
     if (userValueList.includes(userValue)) {
         resultAreaImg.src = "https://media3.giphy.com/media/xlqFxnsFeyuu2pDp4j/giphy.gif?cid=ecf05e47l7w1j7dul42xbvb88ntif4khtvy8r0nhaaen9295&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-        resultArea.textContent="취했냐!! 했던 숫자잖아!!"
+        resultArea.textContent="똑바로 안해?!! 했던 숫자잖아!!"
 
         return;
     }
@@ -50,7 +50,7 @@ function play() {
     } else {
         resultAreaImg.src =
             "https://media4.giphy.com/media/o8Gr7S71m0bhQFeocR/giphy.gif?cid=ecf05e47bltgkn21eo6gkogmrlx87t5b1a9yn3pmxdz5jlj2&ep=v1_gifs_search&rid=giphy.gif&ct=g";
-            resultArea.textContent = "맞췄으니까 지목해!!!!"
+            resultArea.textContent = "맞췄으니까 선물가져!!!!"
         gameOver = true;
     }
 
@@ -58,7 +58,7 @@ function play() {
         gameOver = true;
         resultAreaImg.src =
         "https://media0.giphy.com/media/fqVUYfHCELMgMpA4fo/giphy.gif?cid=ecf05e47jfjux0y2wcpd8rviu8lmrvvyq8my1e3neauckpdq&ep=v1_gifs_search&rid=giphy.gif&ct=g";
-        resultArea.textContent = "기회 끝났다. 너 마셔라!"
+        resultArea.textContent = "기회 끝났다. 한번 더?!!"
     }
 
     if (gameOver == true) {
@@ -78,8 +78,8 @@ function reset() {
     //리셋
     pickNum();
     userInput.value = "";
-    resultAreaImg.src = "./img/mainimg.png";
-    resultArea.textContent = "마시기 싫으면 맞추는게 좋을껄???";
+    resultAreaImg.src = "./img/aaa.svg";
+    resultArea.textContent = "선물 갖고 싶쥐???";
     gameOver = false;
     playButton.disabled = false; // 버튼 다시 활성화
     playButton.style.backgroundColor = ""; // 버튼 배경 색상 초기화 (원하는 색상으로 변경 가능)
