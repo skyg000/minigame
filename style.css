@@ -96,7 +96,6 @@ body{
 }
 @media screen and (max-width: 1200px){
     body{
-        background-size: contain;
     }
     .container{
         width: 85%;
@@ -147,8 +146,6 @@ body{
 }
 @media screen and (max-width: 770px){
     body{
-        background-position: center; 
-        background-size: contain;
     }
     .container{
         width: 85%;
@@ -199,8 +196,7 @@ body{
 }
 @media screen and (max-width: 480px){ 
     body{
-        background-position: center; 
-        background-size: contain;
+      
     }
     .container{
         width: 85%;
