@@ -53,7 +53,8 @@ body{
     width: 70%;
     height: 300px;
     opacity: 0.7;
-    
+    border-radius: 20%;
+    border: 1px solid blueviolet;
 }
 .resulttxt{
     font-size: 40px;
@@ -83,7 +84,7 @@ body{
     font-size: 30px;
     border: none;
     font-family: "RixXladywatermelonR";
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 0 10px;
 }
 .reset-button{

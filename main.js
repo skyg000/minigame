@@ -78,7 +78,7 @@ function reset() {
     //리셋
     pickNum();
     userInput.value = "";
-    resultAreaImg.src = "./img/aaa.svg";
+    resultAreaImg.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGY4MzdhazQxMDE0bjVtcHp4eXBzNGE2cXp3cDNoYWJyeXZkMjJteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kPAr2dQBjvOiuiRDQf/giphy.gif";
     resultArea.textContent = "선물 갖고 싶쥐???";
     gameOver = false;
     playButton.disabled = false; // 버튼 다시 활성화
