@@ -230,13 +230,17 @@ body{
     .inputinfo{
         margin-bottom: 20px;
     }
+    .inputbut{
+        display: flex;
+    }
     .chances-area{
         font-size: 40px;
         margin-bottom: 0px;
     }
     .userinput{
         padding: 8px;
-        font-size: 20px;
+        font-size: 15px;
+        width: 160px;
     }
     .play-button{
         padding: 0 10px;
